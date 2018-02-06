@@ -1,0 +1,5 @@
+msgid ""
+msgstr ""
+
+msgid "Not Found"
+msgstr "Nada Encontrado"

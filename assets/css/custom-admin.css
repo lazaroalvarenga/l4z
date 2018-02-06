@@ -1,0 +1,61 @@
+body.login{
+    background-color: #ffffff;
+}
+.login h1 a{
+    background-image: url('../images/admin.png');
+    margin: 0 auto 30px;
+}
+.login form{
+    margin: 0 auto;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.05);
+    border-radius: 0;
+    padding: 30px 20px 40px;
+}
+.login label{
+    font-size: 12px;
+    line-height: 2;
+    font-style: italic;
+    color: #A9A6B4;
+}
+.login form .input, .login form input[type=checkbox], .login input[type=text]{
+    margin: 0;
+    border: 1px solid #F7F5FC;
+    box-shadow: none;
+    background-color: #F7F5FC;
+    color:#312B45;
+}
+#login form p {
+    margin-bottom: 12px;
+    display: block;
+    float: inherit;
+}
+.login form .button-group.button-large .button, .login form .button.button-large{
+    float: inherit;
+    margin: auto;
+    display: block;
+    box-shadow: none;
+    text-shadow: none;
+    border: none;
+    background: #2EF3A3;
+    height: auto;
+    line-height: 1;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    transition: .1s all linear;
+}
+.login form .button-group.button-large .button:hover, .login form .button.button-large:hover{
+    color: #312B45;
+}
+.login #nav{
+    text-align: center;
+}
+.login #nav a{
+    color: #A9A6B4;
+}
+.login #nav a:hover{
+    color:#FE3265;
+}
+#backtoblog{
+    display: none;
+}
