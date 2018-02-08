@@ -1,0 +1,51 @@
+body.single-post{
+    .wp-post-image{
+        max-width: 100%;
+        height: auto;
+    }
+    .post-title-wrapper{
+        max-width: 760px;
+        background-color: #ffffff;
+        margin-left: 60px;
+        padding: 30px 40px;
+        margin-top: -90px;
+        display: inline-block;
+        margin-bottom: 20px;
+        h1{
+            font-family: @font-family-secondary;
+            line-height: 1.4;
+        }
+    }
+    .content-wrapper{
+        width: 60%;
+        min-width: 480px;
+        margin: 0 auto 80px;
+        font-size: 19px;
+        letter-spacing: 0;
+        line-height: 36px;
+        font-family: Tiempos,Georgia,serif;
+        p{
+            font-size: 100%;
+            margin-bottom: 30px;
+        }
+        a:link{
+            color: @color-text;
+            background-position: 0 100%,110% 90%,0 98%;
+            background-repeat: no-repeat,no-repeat,repeat-x;
+            background-size: 2px 1px,2px 1px,1px 1px;
+            background-size: 2px 1px,2px 1px,1px 1px;
+            text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff, 2px 0 #fff, -2px 0 #fff, 2px 0 #fff, -2px 0 #fff, 2px 0 #fff, -2px 0 #fff, 2px 0 #fff, -2px 0 #fff;
+            background-image: linear-gradient(#fff,#fff),linear-gradient(#fff,#fff),linear-gradient(@color-text,@color-text);
+        }
+        a:hover{
+            color: @color-primary;
+            text-decoration: none;
+            background-position: 0 100%,110% 90%,0 98%;
+            background-repeat: no-repeat,no-repeat,repeat-x;
+            background-size: 2px 1px,2px 1px,1px 1px;
+            background-size: 2px 1px,2px 1px,1px 1px;
+            text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff, 2px 0 #fff, -2px 0 #fff, 2px 0 #fff, -2px 0 #fff, 2px 0 #fff, -2px 0 #fff, 2px 0 #fff, -2px 0 #fff;
+            background-image: linear-gradient(#fff,#fff),linear-gradient(#fff,#fff),linear-gradient(@color-primary,@color-primary);
+        }
+    }
+}
