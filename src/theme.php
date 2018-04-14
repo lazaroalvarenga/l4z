@@ -54,6 +54,17 @@ function fb_opengraph() {
 
 add_action('wp_head', 'fb_opengraph', 15);
 
-$lang = TEMPLATE_PATH . '/lang';
+$lang = THEME_URI . '/lang';
 
 load_theme_textdomain( 'theme_textdomain', $lang );
+
+function register_menus() {
+    register_nav_menus(
+      array(
+        'header-menu' => __( 'Header Menu' ),
+        'social-menu' => __( 'Social Menu' )
+      )
+    );
+}
+
+add_action( 'init', 'register_menus' );

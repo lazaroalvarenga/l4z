@@ -17,5 +17,7 @@ require_once THEME_INC . '/optimize.php';
 require_once THEME_INC . '/theme.php';
 require_once THEME_INC . '/theme-options.php';
 
-// require_once THEME_INC . '/cpt/example.php';
-
+require_once THEME_INC . '/cpt/attraction.php';
+require_once THEME_INC . '/cpt/expositor.php';
+require_once THEME_INC . '/cpt/faq.php';
+require_once THEME_INC . '/cpt/holder.php';
