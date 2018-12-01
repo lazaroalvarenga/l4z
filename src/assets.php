@@ -18,9 +18,9 @@ function load_assets() {
 	}
 	wp_deregister_style( 'contact-form-7' );
 	wp_deregister_script( 'jquery-form' );
-	// wp_deregister_script( 'jquery' );
-	// wp_deregister_script( 'jquery-migrate' );
-	
+	wp_deregister_script( 'jquery' );
+	wp_deregister_script( 'jquery-migrate' );
+
 	wp_enqueue_style( 'bootstrap', THEME_CSS . '/bootstrap.min.css', false, false );
 	wp_enqueue_style( 'app', THEME_CSS . '/style.css', false, false );
 
